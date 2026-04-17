@@ -1,3 +1,7 @@
+<img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/GFZ_logo.png" width=30% height=30%>  <img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/efehr_logo.png" width=30% height=30%>  <img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/Geo-INQUIRE_logo.jpg" width=30% height=30%>
+
+
+
 # GEOINQUIRE-Messina-2026
 Repository containing Jupyter notebooks and data to demonstrate the EFEHR Earthquake Catalogue Web service and eGSIM Webservice at the GEO-INQUIRE Workshop in Messina, Italy, April 2026
 
@@ -42,20 +46,18 @@ Citation:
 
 ## Installation & Setup
 
-Use a virtual environment with the following dependencies:
+[_Use a virtual environment_](https://docs.python.org/3/library/venv.html) with the following dependencies:
 
 ```
-pip install requests obspy h5py tables pandas geopandas jupyter
+>$ pip install requests obspy h5py tables pandas geopandas jupyter
 ```
 
 For Mac users with HDF5 installed via brew:
 
 ```
-pip install requests obspy h5py jupyter
+>$ pip install requests obspy h5py jupyter
 
-env HDF5_DIR=/opt/homebrew/Cellar/hdf5/#.##.# pip 
-
-install tables pandas geopandas
+>$ env HDF5_DIR=/opt/homebrew/Cellar/hdf5/#.##.# pip install tables pandas geopandas
 ```
 
 To download the notebook repository, either click on the "Code" button and select "Download Zip", then move and unzip the contents to an appropriate place on your workstation.
@@ -63,14 +65,22 @@ To download the notebook repository, either click on the "Code" button and selec
 Alternatively, the repository can be cloned via Git on the command line if it is installed on your system:
 
 ```
-> git clone https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026.git
+>$ git clone https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026.git
 ```
 
-One notebook shows how to execute a large scale waveform download query from the ESM Webservice. This is shown for illustrative purposes, but we _strongly_ discourage running this during the workshop. Instead users can download the waveform outputs directly from here: (LINK TBD)
+Once downloaded then enter the folder and begin a Jupyter Lab session
 
-The waveforms are contained in the folder `esm_waveforms`, which should be placed in the directory path `/notebooks/data`
+```
+>$ cd GEOINQUIRE-Messina-2026
+>$ jupyter lab
+```
 
-TBD: Further instructions for running the notebooks via Google Colab
+One notebook shows how to execute a large scale waveform download query from the ESM Webservice. This is shown for illustrative purposes, but we _strongly_ discourage running this during the workshop. Instead users can download the waveform outputs directly from here: https://nextcloud.gfz.de/s/2PNS3gbfCxirF5q
+
+
+The waveforms are contained in the folder `esm_waveforms`, which should be placed in the directory path `/notebooks/data`.
+
+
 
 ## Acknowledgements
 
@@ -84,6 +94,11 @@ The notebooks were created by:
 > graeme.weatherill[at]gfz.de 
 
 Additional contributions from:
->
+> Elif Türker (GFZ)
+> 
+> Riccardo Zaccarelli (GFZ)
 
 The notebooks are provided free for use via a GNU General Public License v 3.0
+
+> © Geo-INQUIRE Consortium 2023-2026 | 
+> Geo-INQUIRE is funded by the European Commission under project number 101058518 > within the HORIZON-INFRA-2021-SERV-01 call.
