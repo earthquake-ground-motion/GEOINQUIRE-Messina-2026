@@ -1,9 +1,9 @@
 <p align="middle">
-    <a title='EFEHR' href='logos/efehr_logo.png'></a>
+    <a title='EFEHR' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/efehr_logo.png'></a>
     &nbsp;
-    <a title='GFZ' href='logos/GFZ_logo.png'></a>
+    <a title='GFZ' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/GFZ_logo.png'></a>
     &nbsp;
-    <a title='GEO-INQUIRE' href='logos/Geo-INQUIRE_logo.jpg'></a>
+    <a title='GEO-INQUIRE' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/Geo-INQUIRE_logo.jpg'></a>
     <br>
 </p>
 
