@@ -1,11 +1,6 @@
-<p align="middle">
-    <a title='EFEHR' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/efehr_logo.png'></a>
-    &nbsp;
-    <a title='GFZ' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/GFZ_logo.png'></a>
-    &nbsp;
-    <a title='GEO-INQUIRE' href='https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/Geo-INQUIRE_logo.jpg'></a>
-    <br>
-</p>
+<img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/GFZ_logo.png" width=30% height=30%>  <img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/efehr_logo.png" width=30% height=30%>  <img src="https://github.com/earthquake-ground-motion/GEOINQUIRE-Messina-2026/blob/update_17042026/logos/Geo-INQUIRE_logo.jpg" width=30% height=30%>
+
+
 
 # GEOINQUIRE-Messina-2026
 Repository containing Jupyter notebooks and data to demonstrate the EFEHR Earthquake Catalogue Web service and eGSIM Webservice at the GEO-INQUIRE Workshop in Messina, Italy, April 2026
